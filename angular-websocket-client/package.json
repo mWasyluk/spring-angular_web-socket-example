@@ -1,0 +1,36 @@
+{
+  "name": "messages-broker",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^14.2.0",
+    "@angular/common": "^14.2.0",
+    "@angular/compiler": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/forms": "^14.2.0",
+    "@angular/platform-browser": "^14.2.0",
+    "@angular/platform-browser-dynamic": "^14.2.0",
+    "@angular/router": "^14.2.0",
+    "@stomp/ng2-stompjs": "^8.0.0",
+    "@stomp/stompjs": "^6.1.2",
+    "ng2-stomp-service": "^1.2.2",
+    "rxjs": "~7.5.0",
+    "sockjs-client": "^1.6.1",
+    "stompjs": "^2.3.3",
+    "tslib": "^2.3.0",
+    "websocket": "^1.0.34",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.2.7",
+    "@angular/cli": "~14.2.7",
+    "@angular/compiler-cli": "^14.2.0",
+    "typescript": "~4.7.2"
+  }
+}
